@@ -25,11 +25,11 @@ public class Problema_5_ReporteEstudianteBase {
         determinarEstado();
     }
 
-    private void calcularPromedio() {
+    public void calcularPromedio() {
         promedio = (materia1 + materia2 + materia3) / 3;
     }
 
-    private void determinarEstado() {
+    public void determinarEstado() {
         if (promedio >= 6.5) {
             estado = "Aprobado";
         } else {
